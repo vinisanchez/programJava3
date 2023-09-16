@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@1,700&display=swap");
+
+  @import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@1,700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Tomorrow", sans-serif;
+  background-color: #f6f6f8;
+}
+
+.navbar {
+  display: flex;
+  flex-flow: nowrap;
+  height: 100px;
+  background-color: #226fe4;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  flex: 20%;
+  margin-left: 10%;
+  font-family: 'Tomorrow', sans-serif;
+  color: rgb(221, 220, 213);
+  font-size: 34px;
+  text-align: center;
+}
+
+.menu {
+  flex: 70%;
+  text-align: right;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 16px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 16px;
+  color: rgb(0, 0, 0);
+}
+
+.menu a:hover {
+  border-top: 4px solid rgb(221, 220, 213);
+  color: black;
+}
+
+#button {
+  background-color: black;
+  padding: 10px 25px;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-right: 10%;
+  margin-left: 5%;
+}
+
+#button:hover {
+  border: none;
+  background-color: #e60084;
+  color: #dce4da;
+  transition: 0.5s;
+}
+
+.header {
+  display: flex;
+  flex-flow: nowrap;
+}
+
+.headline {
+  flex: 40%;
+  margin-left: 10%;
+  /* border: 1px solid black; */
+}
+
+.headline h2 {
+  font-size: 20px;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+}
+
+.registro {
+  text-decoration: none;
+  color: black;
+  background-color: #e60084;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10%;
+}
+
+.registro:hover {
+  background-color: #053607;
+  color: white;
+  transition: 0.9s;
+}
+
+.img-headline {
+  margin-right: 5%;
+  flex: 40%;
+}
+
+footer {
+  height: 200px;
+  background-color: #226fe4;
+  text-align: center;
+}
+
+.footerTexto {
+  padding-top: 40px;
+  margin-left: 18px;
+  color: #dce4da;
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.lista{
+  list-style: none;
+  color: #dce4da;
+}
+ul li a{
+  color: #dce4da;
+  text-decoration: none;  
+}
+
+#icone img{
+  text-align: left;
+  display: block;
+  position: fixed;
+}
+
+#icone {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px; 
+  z-index: 999; }
+
+#icone img {
+  width: 60px; 
+
+}
+
+@media screen and (max-width: 768px) {
+}
